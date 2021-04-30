@@ -10,8 +10,10 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 button{
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 1.1.rem;
     cursor: pointer;
@@ -26,19 +28,21 @@ button{
     }
 }
 h2{
+    font-family: 'Alfa Slab One';
     font-weight: lighter;
     font-size: 4rem;
 
 }
 h3{
     color: white;
+    font-size: 2rem;
 }
 h4{
     font-weight: bold;
 
 }
 a{
-  font-size: 1.1.rem  
+  font-size: 1.1rem;  
 }
 span{
     font-weight: bold;
