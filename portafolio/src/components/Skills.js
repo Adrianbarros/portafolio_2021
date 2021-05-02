@@ -14,7 +14,7 @@ const SkillsSection = () => {
                 <StyledCards>
                     <StyledCard>
                         <div className='icon'>
-                            <img src={py_logo} />
+                            <img src={py_logo} alt='python logo' />
                             <h3>Python</h3>
                         </div>
                         <p>
@@ -25,7 +25,7 @@ const SkillsSection = () => {
                     </StyledCard>
                     <StyledCard>
                         <div className='icon'>
-                            <img src={js_logo} />
+                            <img src={js_logo} alt='JavaScript logo' />
                             <h3>JavaScript</h3>
                         </div>
                         <p>
@@ -35,11 +35,11 @@ const SkillsSection = () => {
                     </StyledCard>
                     <StyledCard>
                         <div className='icon'>
-                            <img src={c_logo} />
+                            <img src={c_logo} alt='C+= logo' />
                             <h3>C++</h3>
                         </div>
                         <p>
-                            The language that started it all, it has been more than 5 years when I decided to persue Computer Science and start leaning this language before my college classes started.
+                            The language that started it all, it has been more than 5 years when I decided to persue Computer Science. I started leaning this language before my college classes started.
                            For better or worst this language is the one who introduce me to <span>Data Structures and Algorithms</span>.
                         </p>
                     </StyledCard>
