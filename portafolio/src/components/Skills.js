@@ -35,7 +35,7 @@ const SkillsSection = () => {
                     </StyledCard>
                     <StyledCard>
                         <div className='icon'>
-                            <img src={c_logo} alt='C+= logo' />
+                            <img src={c_logo} alt='C logo' />
                             <h3>C++</h3>
                         </div>
                         <p>

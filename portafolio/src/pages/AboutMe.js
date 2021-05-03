@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { pageAnimation } from '../animation'
 const AboutMe = () => {
     return (
-        <motion.div variants={pageAnimation} initial='hidden' animate='show'>
+        <motion.div variants={pageAnimation} initial='hidden' animate='show' exit="exit">
             <AboutSection />
             <SkillsSection />
             <ExpSection />
