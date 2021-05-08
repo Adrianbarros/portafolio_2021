@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutSection from '../components/About'
-import ExpSection from '../components/Experience'
 import SkillsSection from '../components/Skills'
 
 import { motion } from 'framer-motion'
@@ -10,7 +9,6 @@ const AboutMe = () => {
         <motion.div variants={pageAnimation} initial='hidden' animate='show' exit="exit">
             <AboutSection />
             <SkillsSection />
-            <ExpSection />
         </motion.div>
     )
 }

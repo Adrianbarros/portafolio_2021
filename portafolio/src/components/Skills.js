@@ -1,7 +1,7 @@
 import React from "react";
 
 import styled from 'styled-components'
-import { StyledAbout, StyledDescription, StyledHide, StyledImg } from '../styles';
+import { StyledAbout, StyledDescription } from '../styles';
 
 import py_logo from '../img/py_logo.svg'
 import js_logo from '../img/js_logo.svg'

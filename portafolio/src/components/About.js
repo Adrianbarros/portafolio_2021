@@ -4,7 +4,7 @@ import Intro_img from '../img/Intro_img.JPG'
 import { StyledAbout, StyledDescription, StyledHide, StyledImg } from '../styles';
 //framer motion
 import { motion } from 'framer-motion'
-import { pageAnimation, titleAnim, fade, photoAnim } from '../animation'
+import { titleAnim, fade, photoAnim } from '../animation'
 import Wave from './Wave'
 
 const AboutSection = () => {
