@@ -2,13 +2,16 @@ import React from "react";
 
 import styled from 'styled-components'
 import { StyledAbout, StyledDescription } from '../styles';
+import { fade } from '../animation';
+import { useScroll } from './useScroll'
 
 import py_logo from '../img/py_logo.svg'
 import js_logo from '../img/js_logo.svg'
 import c_logo from '../img/c_logo.svg'
 const SkillsSection = () => {
+    const [element, controls] = useScroll();
     return (
-        <StyledSkills>
+        <StyledSkills variants={fade} animate={controls} initial="hidden" ref={element}>
             <StyledDescription>
                 <h2>My <span>Favorites</span> programming languages</h2>
                 <StyledCards>

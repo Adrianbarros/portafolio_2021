@@ -26,7 +26,7 @@ const AboutSection = () => {
                 </motion.div>
             </StyledDescription>
             <StyledImg>
-                <motion.img variants={photoAnim} src={Intro_img} alt="picture of me" />
+                <motion.img variants={photoAnim} initial='hidden' animate='show' src={Intro_img} alt="picture of me" />
             </StyledImg>
             <Wave />
         </StyledAbout>
