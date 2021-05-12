@@ -2,7 +2,7 @@
 import React from "react";
 //import pages
 import AboutMe from './pages/AboutMe'
-import Contact from './pages/Coantact'
+import Contact from './pages/Contact'
 import Experience from './pages/Experience'
 //Router 
 import { Switch, Route, useLocation } from 'react-router-dom';
@@ -13,11 +13,13 @@ import Nav from './components/Nav'
 import { AnimatePresence } from 'framer-motion';
 
 
+
 function App() {
   const location = useLocation();
   return (
     <div className="App">
       <GlobalStyle />
+
       <Nav />
       <AnimatePresence exitBeforeEnter initial={false}>
         <Switch location={location} key={location.pathname}>

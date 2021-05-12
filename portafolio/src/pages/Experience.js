@@ -3,9 +3,12 @@ import { motion } from 'framer-motion'
 import { pageAnimation, sliderAnim, sliderContainer } from '../animation'
 import styled from 'styled-components'
 import WorkExp from '../components/Work';
+import ScrollTop from '../components/ScrollTop';
+
 const Experience = () => {
     return (
         <Exp exit="exit" variants={pageAnimation} initial='hidden' animate='show'>
+
             <motion.div variants={sliderContainer}>
                 <Frame1 variants={sliderAnim} />
                 <Frame2 variants={sliderAnim} />
@@ -13,6 +16,7 @@ const Experience = () => {
                 <Frame4 variants={sliderAnim} />
             </motion.div>
             <WorkExp />
+            <ScrollTop />
         </Exp>
     )
 }
