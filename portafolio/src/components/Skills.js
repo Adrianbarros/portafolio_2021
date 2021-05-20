@@ -49,6 +49,7 @@ const SkillsSection = () => {
 
 
                 </StyledCards>
+                <h2>All my <span>Skills</span></h2>
             </StyledDescription>
 
         </StyledSkills>
@@ -70,6 +71,9 @@ const StyledSkills = styled(StyledAbout)`
 const StyledCards = styled.div`
     display: flex;
     flex-wrap: wrap;
+    @media (max-width: 1300px){
+        justify-content: center;
+    }
 `
 
 const StyledCard = styled.div`
