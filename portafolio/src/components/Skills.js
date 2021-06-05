@@ -10,6 +10,10 @@ import js_logo from '../img/js_logo.svg'
 import c_logo from '../img/c_logo.svg'
 const SkillsSection = () => {
     const [element, controls] = useScroll();
+    const numbers = ["C++", "Python", "PHP", "SQL", "MySQL", "JavaScript", "HTML", "CSS", "R", "MATLAB", "VBA", "Django", "Flask", "Express.js", "React.js", "Node.js", "Socket IO", "Matplotlib", "Pandas", "Cmocean", "Scikit"];
+    const listItems = numbers.map((number) =>
+        <li>{number}</li>
+    );
     return (
         <StyledSkills variants={fade} animate={controls} initial="hidden" ref={element}>
             <StyledDescription>
@@ -50,9 +54,19 @@ const SkillsSection = () => {
 
                 </StyledCards>
                 <h2>All my <span>Skills</span></h2>
+                <StyledUnitSkills>
+                    <StyledUnits>
+                        <p>{listItems}</p>
+                    </StyledUnits>
+
+                </StyledUnitSkills>
+
+
+
+
             </StyledDescription>
 
-        </StyledSkills>
+        </StyledSkills >
 
     )
 }
@@ -88,5 +102,12 @@ const StyledCard = styled.div`
             padding: 1rem;
         }
     }
+`
+const StyledUnitSkills = styled.div`
+    display: flex;
+    flex-flow:  row wrap;
+`
+const StyledUnits = styled.div`
+
 `
 export default SkillsSection;
