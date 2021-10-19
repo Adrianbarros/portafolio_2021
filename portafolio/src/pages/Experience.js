@@ -32,17 +32,17 @@ const Frame1 = styled(motion.div)`
     top: 8%;
     width: 100%;
     height: 100vh;
-    background: #fffebf;
+    background: #D96ED4;
     z-index: 2;
 `
 const Frame2 = styled(Frame1)`
-    background: #ff8efb;
+    background:  #23d997;
 `
 const Frame3 = styled(Frame1)`
-    background: #8ed2ff;
+    background: #D96ED4;
 `
 const Frame4 = styled(Frame1)`
-    background: #8effa0;
+    background:  #23d997;
 `
 
 export default Experience;

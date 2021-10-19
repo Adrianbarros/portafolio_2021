@@ -4,16 +4,18 @@ import styled from 'styled-components'
 import { StyledAbout, StyledDescription } from '../styles';
 import { fade } from '../animation';
 import { useScroll } from './useScroll'
-
+import { Grid } from "@material-ui/core"
+import SkillList from '../data/SkillList.json'
+import SkillBlock from './SkillBlock'
 import py_logo from '../img/py_logo.svg'
 import js_logo from '../img/js_logo.svg'
 import c_logo from '../img/c_logo.svg'
 const SkillsSection = () => {
     const [element, controls] = useScroll();
-    const numbers = ["C++", "Python", "PHP", "SQL", "MySQL", "JavaScript", "HTML", "CSS", "R", "MATLAB", "VBA", "Django", "Flask", "Express.js", "React.js", "Node.js", "Socket IO", "Matplotlib", "Pandas", "Cmocean", "Scikit"];
-    const listItems = numbers.map((number) =>
-        <li>{number}</li>
-    );
+    let skillBlocks = []
+    SkillList.skills.forEach(element => {
+        skillBlocks.push(<SkillBlock skill={element} />)
+    });
     return (
         <StyledSkills variants={fade} animate={controls} initial="hidden" ref={element}>
             <StyledDescription>
@@ -47,20 +49,17 @@ const SkillsSection = () => {
                         </div>
                         <p>
                             The language that started it all, it has been more than 5 years when I decided to persue Computer Science. I started leaning this language before my college classes started.
-                           For better or worst this language is the one who introduce me to <span>Data Structures and Algorithms</span>.
+                            For better or worst this language is the one who introduce me to <span>Data Structures and Algorithms</span>.
                         </p>
                     </StyledCard>
 
 
                 </StyledCards>
                 <h2>All my <span>Skills</span></h2>
-                <StyledUnitSkills>
-                    <StyledUnits>
-                        <p>{listItems}</p>
-                    </StyledUnits>
+                <Grid container>
+                    {skillBlocks}
 
-                </StyledUnitSkills>
-
+                </Grid>
 
 
 

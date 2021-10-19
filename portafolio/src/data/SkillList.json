@@ -1,0 +1,73 @@
+{
+    "skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Django"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Flask"
+        },
+        {
+            "name": "Express.js"
+        },
+        {
+            "name": "Node.js"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "REST API"
+        },
+        {
+            "name": "Redux"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS/SCSS"
+        },
+        {
+            "name": "R"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Postgres"
+        },
+        {
+            "name": "Agile"
+        },
+        {
+            "name": "Scrum"
+        },
+        {
+            "name": "React Native"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "AWS"
+        },
+        {
+            "name": "C++"
+        }
+    ]
+}
