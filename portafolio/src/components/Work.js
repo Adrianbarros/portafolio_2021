@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
 //
-import UNICEF from '../img/UNICEF.png'
 import noaa from '../img/noaa.png'
 import rf from '../img/rf.png'
 import nycct from '../img/nycct.png'
