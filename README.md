@@ -1,4 +1,6 @@
 # Adrian Barros Portafolio
+
+Hey, this is a bit old and I am working on a newer one, but feel free to take a look at past me. Ive only gotten better and got more experience!
 ---
 
 ### Table of Contents
